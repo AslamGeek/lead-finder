@@ -1,0 +1,42 @@
+# Native Python services. No Docker. External PostGIS and Redis URLs are supplied by the owner.
+envVarGroups:
+  - name: fieldatlas-shared
+    envVars:
+      - key: APP_MODE
+        value: live
+      - key: PYTHON_VERSION
+        value: 3.12.14
+      - key: DATABASE_URL
+        sync: false
+      - key: REDIS_URL
+        sync: false
+      - key: API_KEY
+        generateValue: true
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: USER_AGENT
+        sync: false
+      - key: CRAWL_ENABLED
+        value: "false"
+services:
+  - type: web
+    name: fieldatlas-api
+    runtime: python
+    rootDir: backend
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    preDeployCommand: alembic upgrade head
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - fromGroup: fieldatlas-shared
+  - type: worker
+    name: fieldatlas-worker
+    runtime: python
+    rootDir: backend
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: celery -A app.tasks:celery worker --loglevel=INFO --concurrency=2
+    envVars:
+      - fromGroup: fieldatlas-shared
+

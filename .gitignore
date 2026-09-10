@@ -1,0 +1,17 @@
+**/node_modules/
+**/.next/
+**/out/
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+**/*.pyc
+**/*.db
+**/*.db-*
+**/.env
+**/.env.local
+**/.env.production
+**/.vercel/
+**/*.tsbuildinfo
+work/
+exports/
+
