@@ -1,0 +1,57 @@
+categories:
+  orthopedics:
+    label: Orthopedics
+    dimension: specialty
+    synonyms: [orthopaedics, orthopedic, orthopaedic, bone and joint, bone & joint, orthopedics]
+    related_queries: [orthopedic clinic, orthopedic hospital, orthopaedic clinic, bone and joint clinic]
+    threshold: 8
+    keywords: {orthopaedic: 10, orthopaedics: 10, orthopedic: 10, orthopedics: 10, bone and joint: 9, joint replacement: 9, bone care: 3}
+  joint_replacement:
+    label: Joint replacement
+    dimension: subspecialty
+    synonyms: [joint replacement, arthroplasty]
+    related_queries: [knee replacement, hip replacement, joint replacement hospital, joint replacement surgeon]
+    threshold: 8
+    keywords: {joint replacement: 10, arthroplasty: 10, knee replacement: 9, hip replacement: 9, joint pain: 2}
+  spine:
+    label: Spine
+    dimension: subspecialty
+    synonyms: [spine clinic, spinal clinic, spine care]
+    related_queries: [spine hospital, spine surgeon, orthopedic spine, spinal surgery]
+    threshold: 8
+    keywords: {spine clinic: 9, spine surgery: 10, spine surgeon: 10, spinal surgery: 10, spine care: 8}
+  knee_replacement:
+    label: Knee replacement
+    dimension: service
+    synonyms: [knee replacement]
+    related_queries: [knee replacement surgeon]
+    threshold: 8
+    keywords: {knee replacement: 10}
+  pediatrics:
+    label: Pediatrics
+    dimension: specialty
+    synonyms: [pediatric, paediatric, pediatric providers, children clinic]
+    related_queries: [pediatric clinic, pediatric hospital]
+    threshold: 8
+    keywords: {pediatric: 10, pediatrics: 10, paediatric: 10}
+  neurology:
+    label: Neurology
+    dimension: specialty
+    synonyms: [neurology, neurologist]
+    related_queries: [neurology clinic, neurologist]
+    threshold: 8
+    keywords: {neurology: 10, neurologist: 10}
+  gynecology:
+    label: Gynecology
+    dimension: specialty
+    synonyms: [gynecology, gynaecology, gynecologist]
+    related_queries: [gynecology clinic]
+    threshold: 8
+    keywords: {gynecology: 10, gynaecology: 10, gynecologist: 10}
+  dental:
+    label: Dental care
+    dimension: category
+    synonyms: [dental clinics, dental, dentist]
+    related_queries: [dental clinic, dentist]
+    threshold: 8
+    keywords: {dental: 10, dentist: 10}

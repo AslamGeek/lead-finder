@@ -1,0 +1,36 @@
+categories:
+  education:
+    label: Education
+    dimension: category
+    synonyms: [schools, school, coaching centers, coaching, study abroad consultancies]
+    related_queries: [school, coaching center, study abroad consultancy]
+    threshold: 8
+    keywords: {school: 10, coaching: 10, study abroad: 10}
+  restaurant:
+    label: Restaurants
+    dimension: category
+    synonyms: [restaurants, restaurant, dining]
+    related_queries: [restaurant]
+    threshold: 8
+    keywords: {restaurant: 10, dining: 8}
+  hospitality:
+    label: Hotels
+    dimension: category
+    synonyms: [hotels, hotel, accommodation]
+    related_queries: [hotel]
+    threshold: 8
+    keywords: {hotel: 10, accommodation: 8}
+  real_estate:
+    label: Real estate
+    dimension: category
+    synonyms: [real estate agencies, real estate, estate agent]
+    related_queries: [real estate agency]
+    threshold: 8
+    keywords: {real estate: 10, estate agent: 10}
+  fitness:
+    label: Fitness
+    dimension: category
+    synonyms: [gyms, gym, fitness]
+    related_queries: [gym, fitness center]
+    threshold: 8
+    keywords: {gym: 10, fitness: 10}
