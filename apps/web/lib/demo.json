@@ -1,0 +1,1245 @@
+{
+  "location": {
+    "provider_id": "demo:kadapa",
+    "display_name": "Kadapa, Andhra Pradesh, India",
+    "city": "Kadapa",
+    "district": "YSR Kadapa",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "latitude": 14.4673,
+    "longitude": 78.8242,
+    "bounding_box": [
+      78.75,
+      14.4,
+      78.91,
+      14.54
+    ]
+  },
+  "locations": [
+    {
+      "provider_id": "demo:kadapa",
+      "display_name": "Kadapa, Andhra Pradesh, India",
+      "city": "Kadapa",
+      "district": "YSR Kadapa",
+      "state": "Andhra Pradesh",
+      "country": "India",
+      "latitude": 14.4673,
+      "longitude": 78.8242,
+      "bounding_box": [
+        78.75,
+        14.4,
+        78.91,
+        14.54
+      ]
+    },
+    {
+      "provider_id": "demo:kadiri",
+      "display_name": "Kadiri, Andhra Pradesh, India",
+      "city": "Kadiri",
+      "district": "Sri Sathya Sai",
+      "state": "Andhra Pradesh",
+      "country": "India",
+      "latitude": 14.112,
+      "longitude": 78.16,
+      "bounding_box": null
+    }
+  ],
+  "terms": [
+    "orthopaedics",
+    "bone & joint",
+    "joint replacement",
+    "spine clinic"
+  ],
+  "entities": [
+    {
+      "id": "b9460da9-fe21-5c13-b23a-471809b52d42",
+      "name": "Cedar Bone & Joint Hospital",
+      "entity_type": "hospital",
+      "facility_type": null,
+      "category": "Healthcare",
+      "specialties": [
+        "Orthopedics"
+      ],
+      "subspecialties": [
+        "Joint replacement",
+        "Spine"
+      ],
+      "services": [
+        "knee replacement"
+      ],
+      "phone": null,
+      "email": null,
+      "whatsapp": null,
+      "website": "https://provider-0.example.com/",
+      "address": "12 Example Road, Kadapa",
+      "city": "Kadapa",
+      "latitude": 14.4223,
+      "longitude": 78.8002,
+      "rating": null,
+      "review_count": null,
+      "source_count": 2,
+      "confidence_score": 0.95,
+      "confidence": "High",
+      "last_verified_at": null,
+      "is_demo": true,
+      "distance_km": 5.63,
+      "categories": [
+        {
+          "key": "orthopedics",
+          "label": "Orthopedics",
+          "dimension": "specialty",
+          "score": 28,
+          "signals": [
+            {
+              "term": "orthopedics",
+              "weight": 10
+            },
+            {
+              "term": "bone and joint",
+              "weight": 9
+            },
+            {
+              "term": "joint replacement",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "joint_replacement",
+          "label": "Joint replacement",
+          "dimension": "subspecialty",
+          "score": 19,
+          "signals": [
+            {
+              "term": "joint replacement",
+              "weight": 10
+            },
+            {
+              "term": "knee replacement",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "spine",
+          "label": "Spine",
+          "dimension": "subspecialty",
+          "score": 9,
+          "signals": [
+            {
+              "term": "spine clinic",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "knee_replacement",
+          "label": "Knee replacement",
+          "dimension": "service",
+          "score": 10,
+          "signals": [
+            {
+              "term": "knee replacement",
+              "weight": 10
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "attribute_name": "name",
+          "value_text": "Cedar Bone & Joint Hospital",
+          "source_name": "fictional_fixture",
+          "source_url": "https://example.com/fictional/0",
+          "extraction_method": "source_api",
+          "confidence": 0.95,
+          "evidence_text": "Fictional development fixture. Not a verified business."
+        }
+      ],
+      "sources": [
+        {
+          "source": "fictional_fixture",
+          "source_record_id": "demo-0",
+          "source_url": "https://example.com/fictional/0",
+          "query_used": "orthopaedics",
+          "name": "Cedar Bone & Joint Hospital",
+          "category_raw": "orthopedics joint replacement spine clinic",
+          "address_raw": "12 Example Road, Kadapa",
+          "phone_raw": null,
+          "website_raw": "https://provider-0.example.com",
+          "latitude": 14.4223,
+          "longitude": 78.8002,
+          "rating": null,
+          "review_count": null,
+          "retrieved_at": "2026-09-10T04:58:35.969937Z",
+          "metadata": {
+            "fixture": true,
+            "entity_type": "hospital",
+            "services": [
+              "knee replacement"
+            ]
+          },
+          "is_demo": true
+        }
+      ],
+      "completeness_score": 60
+    },
+    {
+      "id": "b9f740be-93bc-5c26-bbbb-af63a41919b7",
+      "name": "Meadow Orthopaedic Clinic",
+      "entity_type": "clinic",
+      "facility_type": null,
+      "category": "Healthcare",
+      "specialties": [
+        "Orthopedics"
+      ],
+      "subspecialties": [],
+      "services": [],
+      "phone": null,
+      "email": null,
+      "whatsapp": null,
+      "website": "https://provider-1.example.com/",
+      "address": "19 Example Road, Kadapa",
+      "city": "Kadapa",
+      "latitude": 14.4313,
+      "longitude": 78.8242,
+      "rating": null,
+      "review_count": null,
+      "source_count": 1,
+      "confidence_score": 0.95,
+      "confidence": "High",
+      "last_verified_at": null,
+      "is_demo": true,
+      "distance_km": 4.0,
+      "categories": [
+        {
+          "key": "orthopedics",
+          "label": "Orthopedics",
+          "dimension": "specialty",
+          "score": 20,
+          "signals": [
+            {
+              "term": "orthopaedic",
+              "weight": 10
+            },
+            {
+              "term": "orthopedics",
+              "weight": 10
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "attribute_name": "name",
+          "value_text": "Meadow Orthopaedic Clinic",
+          "source_name": "fictional_fixture",
+          "source_url": "https://example.com/fictional/1",
+          "extraction_method": "source_api",
+          "confidence": 0.95,
+          "evidence_text": "Fictional development fixture. Not a verified business."
+        }
+      ],
+      "sources": [
+        {
+          "source": "fictional_fixture",
+          "source_record_id": "demo-1",
+          "source_url": "https://example.com/fictional/1",
+          "query_used": "orthopaedics",
+          "name": "Meadow Orthopaedic Clinic",
+          "category_raw": "orthopedics",
+          "address_raw": "19 Example Road, Kadapa",
+          "phone_raw": null,
+          "website_raw": "https://provider-1.example.com",
+          "latitude": 14.4313,
+          "longitude": 78.8242,
+          "rating": null,
+          "review_count": null,
+          "retrieved_at": "2026-09-10T04:58:35.969937Z",
+          "metadata": {
+            "fixture": true,
+            "entity_type": "clinic",
+            "services": []
+          },
+          "is_demo": true
+        }
+      ],
+      "completeness_score": 40
+    },
+    {
+      "id": "5e4ba685-dba2-5b7e-a868-51a361bf013d",
+      "name": "Riverbend Spine Centre",
+      "entity_type": "clinic",
+      "facility_type": null,
+      "category": "Healthcare",
+      "specialties": [
+        "Orthopedics"
+      ],
+      "subspecialties": [],
+      "services": [],
+      "phone": null,
+      "email": null,
+      "whatsapp": null,
+      "website": "https://provider-2.example.com/",
+      "address": "26 Example Road, Kadapa",
+      "city": "Kadapa",
+      "latitude": 14.4403,
+      "longitude": 78.8482,
+      "rating": null,
+      "review_count": null,
+      "source_count": 1,
+      "confidence_score": 0.95,
+      "confidence": "High",
+      "last_verified_at": null,
+      "is_demo": true,
+      "distance_km": 3.96,
+      "categories": [
+        {
+          "key": "orthopedics",
+          "label": "Orthopedics",
+          "dimension": "specialty",
+          "score": 10,
+          "signals": [
+            {
+              "term": "orthopedics",
+              "weight": 10
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "attribute_name": "name",
+          "value_text": "Riverbend Spine Centre",
+          "source_name": "fictional_fixture",
+          "source_url": "https://example.com/fictional/2",
+          "extraction_method": "source_api",
+          "confidence": 0.95,
+          "evidence_text": "Fictional development fixture. Not a verified business."
+        }
+      ],
+      "sources": [
+        {
+          "source": "fictional_fixture",
+          "source_record_id": "demo-2",
+          "source_url": "https://example.com/fictional/2",
+          "query_used": "orthopaedics",
+          "name": "Riverbend Spine Centre",
+          "category_raw": "orthopedics",
+          "address_raw": "26 Example Road, Kadapa",
+          "phone_raw": null,
+          "website_raw": "https://provider-2.example.com",
+          "latitude": 14.4403,
+          "longitude": 78.8482,
+          "rating": null,
+          "review_count": null,
+          "retrieved_at": "2026-09-10T04:58:35.969937Z",
+          "metadata": {
+            "fixture": true,
+            "entity_type": "clinic",
+            "services": []
+          },
+          "is_demo": true
+        }
+      ],
+      "completeness_score": 40
+    },
+    {
+      "id": "ef507a6b-a652-5cbe-8c08-e2370ec3b796",
+      "name": "Northstar Multispecialty Hospital",
+      "entity_type": "hospital",
+      "facility_type": "multispecialty_hospital",
+      "category": "Healthcare",
+      "specialties": [
+        "Orthopedics"
+      ],
+      "subspecialties": [
+        "Joint replacement",
+        "Spine"
+      ],
+      "services": [
+        "knee replacement"
+      ],
+      "phone": null,
+      "email": null,
+      "whatsapp": null,
+      "website": null,
+      "address": "33 Example Road, Kadapa",
+      "city": "Kadapa",
+      "latitude": 14.4493,
+      "longitude": 78.81620000000001,
+      "rating": null,
+      "review_count": null,
+      "source_count": 1,
+      "confidence_score": 0.95,
+      "confidence": "High",
+      "last_verified_at": null,
+      "is_demo": true,
+      "distance_km": 2.18,
+      "categories": [
+        {
+          "key": "orthopedics",
+          "label": "Orthopedics",
+          "dimension": "specialty",
+          "score": 19,
+          "signals": [
+            {
+              "term": "orthopedics",
+              "weight": 10
+            },
+            {
+              "term": "joint replacement",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "joint_replacement",
+          "label": "Joint replacement",
+          "dimension": "subspecialty",
+          "score": 19,
+          "signals": [
+            {
+              "term": "joint replacement",
+              "weight": 10
+            },
+            {
+              "term": "knee replacement",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "spine",
+          "label": "Spine",
+          "dimension": "subspecialty",
+          "score": 9,
+          "signals": [
+            {
+              "term": "spine clinic",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "knee_replacement",
+          "label": "Knee replacement",
+          "dimension": "service",
+          "score": 10,
+          "signals": [
+            {
+              "term": "knee replacement",
+              "weight": 10
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "attribute_name": "name",
+          "value_text": "Northstar Multispecialty Hospital",
+          "source_name": "fictional_fixture",
+          "source_url": "https://example.com/fictional/3",
+          "extraction_method": "source_api",
+          "confidence": 0.95,
+          "evidence_text": "Fictional development fixture. Not a verified business."
+        }
+      ],
+      "sources": [
+        {
+          "source": "fictional_fixture",
+          "source_record_id": "demo-3",
+          "source_url": "https://example.com/fictional/3",
+          "query_used": "orthopaedics",
+          "name": "Northstar Multispecialty Hospital",
+          "category_raw": "orthopedics joint replacement spine clinic",
+          "address_raw": "33 Example Road, Kadapa",
+          "phone_raw": null,
+          "website_raw": null,
+          "latitude": 14.4493,
+          "longitude": 78.81620000000001,
+          "rating": null,
+          "review_count": null,
+          "retrieved_at": "2026-09-10T04:58:35.969937Z",
+          "metadata": {
+            "fixture": true,
+            "entity_type": "hospital",
+            "services": [
+              "knee replacement"
+            ]
+          },
+          "is_demo": true
+        }
+      ],
+      "completeness_score": 40
+    },
+    {
+      "id": "a2b913e9-70e6-5a88-aa78-747384478d8d",
+      "name": "Oakwell Joint Replacement Centre",
+      "entity_type": "clinic",
+      "facility_type": null,
+      "category": "Healthcare",
+      "specialties": [
+        "Orthopedics"
+      ],
+      "subspecialties": [
+        "Joint replacement"
+      ],
+      "services": [],
+      "phone": null,
+      "email": null,
+      "whatsapp": null,
+      "website": "https://provider-4.example.com/",
+      "address": "40 Example Road, Kadapa",
+      "city": "Kadapa",
+      "latitude": 14.4583,
+      "longitude": 78.84020000000001,
+      "rating": null,
+      "review_count": null,
+      "source_count": 1,
+      "confidence_score": 0.95,
+      "confidence": "High",
+      "last_verified_at": null,
+      "is_demo": true,
+      "distance_km": 1.99,
+      "categories": [
+        {
+          "key": "orthopedics",
+          "label": "Orthopedics",
+          "dimension": "specialty",
+          "score": 19,
+          "signals": [
+            {
+              "term": "orthopedics",
+              "weight": 10
+            },
+            {
+              "term": "joint replacement",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "joint_replacement",
+          "label": "Joint replacement",
+          "dimension": "subspecialty",
+          "score": 10,
+          "signals": [
+            {
+              "term": "joint replacement",
+              "weight": 10
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "attribute_name": "name",
+          "value_text": "Oakwell Joint Replacement Centre",
+          "source_name": "fictional_fixture",
+          "source_url": "https://example.com/fictional/4",
+          "extraction_method": "source_api",
+          "confidence": 0.95,
+          "evidence_text": "Fictional development fixture. Not a verified business."
+        }
+      ],
+      "sources": [
+        {
+          "source": "fictional_fixture",
+          "source_record_id": "demo-4",
+          "source_url": "https://example.com/fictional/4",
+          "query_used": "orthopaedics",
+          "name": "Oakwell Joint Replacement Centre",
+          "category_raw": "orthopedics",
+          "address_raw": "40 Example Road, Kadapa",
+          "phone_raw": null,
+          "website_raw": "https://provider-4.example.com",
+          "latitude": 14.4583,
+          "longitude": 78.84020000000001,
+          "rating": null,
+          "review_count": null,
+          "retrieved_at": "2026-09-10T04:58:35.969937Z",
+          "metadata": {
+            "fixture": true,
+            "entity_type": "clinic",
+            "services": []
+          },
+          "is_demo": true
+        }
+      ],
+      "completeness_score": 40
+    },
+    {
+      "id": "1de12254-9367-5d8a-a070-b5abbfda0a32",
+      "name": "Juniper Orthopedics",
+      "entity_type": "clinic",
+      "facility_type": null,
+      "category": "Healthcare",
+      "specialties": [
+        "Orthopedics"
+      ],
+      "subspecialties": [],
+      "services": [],
+      "phone": null,
+      "email": null,
+      "whatsapp": null,
+      "website": "https://provider-5.example.com/",
+      "address": "47 Example Road, Kadapa",
+      "city": "Kadapa",
+      "latitude": 14.4673,
+      "longitude": 78.8082,
+      "rating": null,
+      "review_count": null,
+      "source_count": 1,
+      "confidence_score": 0.95,
+      "confidence": "High",
+      "last_verified_at": null,
+      "is_demo": true,
+      "distance_km": 1.72,
+      "categories": [
+        {
+          "key": "orthopedics",
+          "label": "Orthopedics",
+          "dimension": "specialty",
+          "score": 10,
+          "signals": [
+            {
+              "term": "orthopedics",
+              "weight": 10
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "attribute_name": "name",
+          "value_text": "Juniper Orthopedics",
+          "source_name": "fictional_fixture",
+          "source_url": "https://example.com/fictional/5",
+          "extraction_method": "source_api",
+          "confidence": 0.95,
+          "evidence_text": "Fictional development fixture. Not a verified business."
+        }
+      ],
+      "sources": [
+        {
+          "source": "fictional_fixture",
+          "source_record_id": "demo-5",
+          "source_url": "https://example.com/fictional/5",
+          "query_used": "orthopaedics",
+          "name": "Juniper Orthopedics",
+          "category_raw": "orthopedics",
+          "address_raw": "47 Example Road, Kadapa",
+          "phone_raw": null,
+          "website_raw": "https://provider-5.example.com",
+          "latitude": 14.4673,
+          "longitude": 78.8082,
+          "rating": null,
+          "review_count": null,
+          "retrieved_at": "2026-09-10T04:58:35.969937Z",
+          "metadata": {
+            "fixture": true,
+            "entity_type": "clinic",
+            "services": []
+          },
+          "is_demo": true
+        }
+      ],
+      "completeness_score": 40
+    },
+    {
+      "id": "33bdc425-e932-5ac4-a893-7e2350916f90",
+      "name": "Willow Spine Clinic",
+      "entity_type": "clinic",
+      "facility_type": null,
+      "category": "Healthcare",
+      "specialties": [
+        "Orthopedics"
+      ],
+      "subspecialties": [
+        "Joint replacement",
+        "Spine"
+      ],
+      "services": [
+        "knee replacement"
+      ],
+      "phone": null,
+      "email": null,
+      "whatsapp": null,
+      "website": "https://provider-6.example.com/",
+      "address": "54 Example Road, Kadapa",
+      "city": "Kadapa",
+      "latitude": 14.4763,
+      "longitude": 78.8322,
+      "rating": null,
+      "review_count": null,
+      "source_count": 1,
+      "confidence_score": 0.95,
+      "confidence": "High",
+      "last_verified_at": null,
+      "is_demo": true,
+      "distance_km": 1.32,
+      "categories": [
+        {
+          "key": "orthopedics",
+          "label": "Orthopedics",
+          "dimension": "specialty",
+          "score": 19,
+          "signals": [
+            {
+              "term": "orthopedics",
+              "weight": 10
+            },
+            {
+              "term": "joint replacement",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "joint_replacement",
+          "label": "Joint replacement",
+          "dimension": "subspecialty",
+          "score": 19,
+          "signals": [
+            {
+              "term": "joint replacement",
+              "weight": 10
+            },
+            {
+              "term": "knee replacement",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "spine",
+          "label": "Spine",
+          "dimension": "subspecialty",
+          "score": 9,
+          "signals": [
+            {
+              "term": "spine clinic",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "knee_replacement",
+          "label": "Knee replacement",
+          "dimension": "service",
+          "score": 10,
+          "signals": [
+            {
+              "term": "knee replacement",
+              "weight": 10
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "attribute_name": "name",
+          "value_text": "Willow Spine Clinic",
+          "source_name": "fictional_fixture",
+          "source_url": "https://example.com/fictional/6",
+          "extraction_method": "source_api",
+          "confidence": 0.95,
+          "evidence_text": "Fictional development fixture. Not a verified business."
+        }
+      ],
+      "sources": [
+        {
+          "source": "fictional_fixture",
+          "source_record_id": "demo-6",
+          "source_url": "https://example.com/fictional/6",
+          "query_used": "orthopaedics",
+          "name": "Willow Spine Clinic",
+          "category_raw": "orthopedics joint replacement spine clinic",
+          "address_raw": "54 Example Road, Kadapa",
+          "phone_raw": null,
+          "website_raw": "https://provider-6.example.com",
+          "latitude": 14.4763,
+          "longitude": 78.8322,
+          "rating": null,
+          "review_count": null,
+          "retrieved_at": "2026-09-10T04:58:35.969937Z",
+          "metadata": {
+            "fixture": true,
+            "entity_type": "clinic",
+            "services": [
+              "knee replacement"
+            ]
+          },
+          "is_demo": true
+        }
+      ],
+      "completeness_score": 50
+    },
+    {
+      "id": "7aa77346-b0e0-5ab4-a36b-181fb56cf799",
+      "name": "Bluebird Bone & Joint Clinic",
+      "entity_type": "clinic",
+      "facility_type": null,
+      "category": "Healthcare",
+      "specialties": [
+        "Orthopedics"
+      ],
+      "subspecialties": [],
+      "services": [],
+      "phone": null,
+      "email": null,
+      "whatsapp": null,
+      "website": null,
+      "address": "61 Example Road, Kadapa",
+      "city": "Kadapa",
+      "latitude": 14.4853,
+      "longitude": 78.8002,
+      "rating": null,
+      "review_count": null,
+      "source_count": 1,
+      "confidence_score": 0.95,
+      "confidence": "High",
+      "last_verified_at": null,
+      "is_demo": true,
+      "distance_km": 3.27,
+      "categories": [
+        {
+          "key": "orthopedics",
+          "label": "Orthopedics",
+          "dimension": "specialty",
+          "score": 19,
+          "signals": [
+            {
+              "term": "orthopedics",
+              "weight": 10
+            },
+            {
+              "term": "bone and joint",
+              "weight": 9
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "attribute_name": "name",
+          "value_text": "Bluebird Bone & Joint Clinic",
+          "source_name": "fictional_fixture",
+          "source_url": "https://example.com/fictional/7",
+          "extraction_method": "source_api",
+          "confidence": 0.95,
+          "evidence_text": "Fictional development fixture. Not a verified business."
+        }
+      ],
+      "sources": [
+        {
+          "source": "fictional_fixture",
+          "source_record_id": "demo-7",
+          "source_url": "https://example.com/fictional/7",
+          "query_used": "orthopaedics",
+          "name": "Bluebird Bone & Joint Clinic",
+          "category_raw": "orthopedics",
+          "address_raw": "61 Example Road, Kadapa",
+          "phone_raw": null,
+          "website_raw": null,
+          "latitude": 14.4853,
+          "longitude": 78.8002,
+          "rating": null,
+          "review_count": null,
+          "retrieved_at": "2026-09-10T04:58:35.969937Z",
+          "metadata": {
+            "fixture": true,
+            "entity_type": "clinic",
+            "services": []
+          },
+          "is_demo": true
+        }
+      ],
+      "completeness_score": 30
+    },
+    {
+      "id": "f417de5b-a2f1-5c86-ba09-4cba1bab4fa7",
+      "name": "Evergreen Orthopaedic Hospital",
+      "entity_type": "hospital",
+      "facility_type": null,
+      "category": "Healthcare",
+      "specialties": [
+        "Orthopedics"
+      ],
+      "subspecialties": [],
+      "services": [],
+      "phone": null,
+      "email": null,
+      "whatsapp": null,
+      "website": "https://provider-8.example.com/",
+      "address": "68 Example Road, Kadapa",
+      "city": "Kadapa",
+      "latitude": 14.494299999999999,
+      "longitude": 78.8242,
+      "rating": null,
+      "review_count": null,
+      "source_count": 1,
+      "confidence_score": 0.95,
+      "confidence": "High",
+      "last_verified_at": null,
+      "is_demo": true,
+      "distance_km": 3.0,
+      "categories": [
+        {
+          "key": "orthopedics",
+          "label": "Orthopedics",
+          "dimension": "specialty",
+          "score": 20,
+          "signals": [
+            {
+              "term": "orthopaedic",
+              "weight": 10
+            },
+            {
+              "term": "orthopedics",
+              "weight": 10
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "attribute_name": "name",
+          "value_text": "Evergreen Orthopaedic Hospital",
+          "source_name": "fictional_fixture",
+          "source_url": "https://example.com/fictional/8",
+          "extraction_method": "source_api",
+          "confidence": 0.95,
+          "evidence_text": "Fictional development fixture. Not a verified business."
+        }
+      ],
+      "sources": [
+        {
+          "source": "fictional_fixture",
+          "source_record_id": "demo-8",
+          "source_url": "https://example.com/fictional/8",
+          "query_used": "orthopaedics",
+          "name": "Evergreen Orthopaedic Hospital",
+          "category_raw": "orthopedics",
+          "address_raw": "68 Example Road, Kadapa",
+          "phone_raw": null,
+          "website_raw": "https://provider-8.example.com",
+          "latitude": 14.494299999999999,
+          "longitude": 78.8242,
+          "rating": null,
+          "review_count": null,
+          "retrieved_at": "2026-09-10T04:58:35.969937Z",
+          "metadata": {
+            "fixture": true,
+            "entity_type": "hospital",
+            "services": []
+          },
+          "is_demo": true
+        }
+      ],
+      "completeness_score": 40
+    },
+    {
+      "id": "f263a252-8389-5fcf-b4bc-9dea277b7b6b",
+      "name": "Harbor Joint Care",
+      "entity_type": "clinic",
+      "facility_type": null,
+      "category": "Healthcare",
+      "specialties": [
+        "Orthopedics"
+      ],
+      "subspecialties": [
+        "Joint replacement",
+        "Spine"
+      ],
+      "services": [
+        "knee replacement"
+      ],
+      "phone": null,
+      "email": null,
+      "whatsapp": null,
+      "website": "https://provider-9.example.com/",
+      "address": "75 Example Road, Kadapa",
+      "city": "Kadapa",
+      "latitude": 14.5033,
+      "longitude": 78.8482,
+      "rating": null,
+      "review_count": null,
+      "source_count": 1,
+      "confidence_score": 0.95,
+      "confidence": "High",
+      "last_verified_at": null,
+      "is_demo": true,
+      "distance_km": 4.76,
+      "categories": [
+        {
+          "key": "orthopedics",
+          "label": "Orthopedics",
+          "dimension": "specialty",
+          "score": 19,
+          "signals": [
+            {
+              "term": "orthopedics",
+              "weight": 10
+            },
+            {
+              "term": "joint replacement",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "joint_replacement",
+          "label": "Joint replacement",
+          "dimension": "subspecialty",
+          "score": 19,
+          "signals": [
+            {
+              "term": "joint replacement",
+              "weight": 10
+            },
+            {
+              "term": "knee replacement",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "spine",
+          "label": "Spine",
+          "dimension": "subspecialty",
+          "score": 9,
+          "signals": [
+            {
+              "term": "spine clinic",
+              "weight": 9
+            }
+          ]
+        },
+        {
+          "key": "knee_replacement",
+          "label": "Knee replacement",
+          "dimension": "service",
+          "score": 10,
+          "signals": [
+            {
+              "term": "knee replacement",
+              "weight": 10
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "attribute_name": "name",
+          "value_text": "Harbor Joint Care",
+          "source_name": "fictional_fixture",
+          "source_url": "https://example.com/fictional/9",
+          "extraction_method": "source_api",
+          "confidence": 0.95,
+          "evidence_text": "Fictional development fixture. Not a verified business."
+        }
+      ],
+      "sources": [
+        {
+          "source": "fictional_fixture",
+          "source_record_id": "demo-9",
+          "source_url": "https://example.com/fictional/9",
+          "query_used": "orthopaedics",
+          "name": "Harbor Joint Care",
+          "category_raw": "orthopedics joint replacement spine clinic",
+          "address_raw": "75 Example Road, Kadapa",
+          "phone_raw": null,
+          "website_raw": "https://provider-9.example.com",
+          "latitude": 14.5033,
+          "longitude": 78.8482,
+          "rating": null,
+          "review_count": null,
+          "retrieved_at": "2026-09-10T04:58:35.969937Z",
+          "metadata": {
+            "fixture": true,
+            "entity_type": "clinic",
+            "services": [
+              "knee replacement"
+            ]
+          },
+          "is_demo": true
+        }
+      ],
+      "completeness_score": 50
+    },
+    {
+      "id": "898ee7c6-1327-5625-9361-cfd41c5df64d",
+      "name": "Crescent Spine Clinic",
+      "entity_type": "clinic",
+      "facility_type": null,
+      "category": "Healthcare",
+      "specialties": [
+        "Orthopedics"
+      ],
+      "subspecialties": [
+        "Spine"
+      ],
+      "services": [],
+      "phone": null,
+      "email": null,
+      "whatsapp": null,
+      "website": "https://provider-10.example.com/",
+      "address": "82 Example Road, Kadapa",
+      "city": "Kadapa",
+      "latitude": 14.5123,
+      "longitude": 78.81620000000001,
+      "rating": null,
+      "review_count": null,
+      "source_count": 1,
+      "confidence_score": 0.95,
+      "confidence": "High",
+      "last_verified_at": null,
+      "is_demo": true,
+      "distance_km": 5.08,
+      "categories": [
+        {
+          "key": "orthopedics",
+          "label": "Orthopedics",
+          "dimension": "specialty",
+          "score": 10,
+          "signals": [
+            {
+              "term": "orthopedics",
+              "weight": 10
+            }
+          ]
+        },
+        {
+          "key": "spine",
+          "label": "Spine",
+          "dimension": "subspecialty",
+          "score": 9,
+          "signals": [
+            {
+              "term": "spine clinic",
+              "weight": 9
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "attribute_name": "name",
+          "value_text": "Crescent Spine Clinic",
+          "source_name": "fictional_fixture",
+          "source_url": "https://example.com/fictional/10",
+          "extraction_method": "source_api",
+          "confidence": 0.95,
+          "evidence_text": "Fictional development fixture. Not a verified business."
+        }
+      ],
+      "sources": [
+        {
+          "source": "fictional_fixture",
+          "source_record_id": "demo-10",
+          "source_url": "https://example.com/fictional/10",
+          "query_used": "orthopaedics",
+          "name": "Crescent Spine Clinic",
+          "category_raw": "orthopedics",
+          "address_raw": "82 Example Road, Kadapa",
+          "phone_raw": null,
+          "website_raw": "https://provider-10.example.com",
+          "latitude": 14.5123,
+          "longitude": 78.81620000000001,
+          "rating": null,
+          "review_count": null,
+          "retrieved_at": "2026-09-10T04:58:35.969937Z",
+          "metadata": {
+            "fixture": true,
+            "entity_type": "clinic",
+            "services": []
+          },
+          "is_demo": true
+        }
+      ],
+      "completeness_score": 40
+    },
+    {
+      "id": "a84d52c7-33a0-5388-ad98-561c0332aa89",
+      "name": "Maple Multispecialty Hospital",
+      "entity_type": "hospital",
+      "facility_type": "multispecialty_hospital",
+      "category": "Healthcare",
+      "specialties": [
+        "Orthopedics"
+      ],
+      "subspecialties": [],
+      "services": [],
+      "phone": null,
+      "email": null,
+      "whatsapp": null,
+      "website": null,
+      "address": "89 Example Road, Kadapa",
+      "city": "Kadapa",
+      "latitude": 14.5213,
+      "longitude": 78.84020000000001,
+      "rating": null,
+      "review_count": null,
+      "source_count": 1,
+      "confidence_score": 0.95,
+      "confidence": "High",
+      "last_verified_at": null,
+      "is_demo": true,
+      "distance_km": 6.25,
+      "categories": [
+        {
+          "key": "orthopedics",
+          "label": "Orthopedics",
+          "dimension": "specialty",
+          "score": 10,
+          "signals": [
+            {
+              "term": "orthopedics",
+              "weight": 10
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "attribute_name": "name",
+          "value_text": "Maple Multispecialty Hospital",
+          "source_name": "fictional_fixture",
+          "source_url": "https://example.com/fictional/11",
+          "extraction_method": "source_api",
+          "confidence": 0.95,
+          "evidence_text": "Fictional development fixture. Not a verified business."
+        }
+      ],
+      "sources": [
+        {
+          "source": "fictional_fixture",
+          "source_record_id": "demo-11",
+          "source_url": "https://example.com/fictional/11",
+          "query_used": "orthopaedics",
+          "name": "Maple Multispecialty Hospital",
+          "category_raw": "orthopedics",
+          "address_raw": "89 Example Road, Kadapa",
+          "phone_raw": null,
+          "website_raw": null,
+          "latitude": 14.5213,
+          "longitude": 78.84020000000001,
+          "rating": null,
+          "review_count": null,
+          "retrieved_at": "2026-09-10T04:58:35.969937Z",
+          "metadata": {
+            "fixture": true,
+            "entity_type": "hospital",
+            "services": []
+          },
+          "is_demo": true
+        }
+      ],
+      "completeness_score": 30
+    }
+  ],
+  "is_demo": true,
+  "raw_observations": 13
+}
