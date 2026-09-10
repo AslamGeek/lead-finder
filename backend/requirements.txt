@@ -1,0 +1,16 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+pydantic>=2.10,<3
+pydantic-settings>=2.7,<3
+SQLAlchemy>=2.0,<3
+alembic>=1.14,<2
+psycopg[binary]>=3.2,<4
+geoalchemy2>=0.17,<1
+celery>=5.4,<6
+redis>=5.2,<7
+httpx>=0.28,<1
+beautifulsoup4>=4.12,<5
+rapidfuzz>=3.11,<4
+PyYAML>=6,<7
+pandas>=2.2,<3
+openpyxl>=3.1,<4
